@@ -1,14 +1,12 @@
 fun main(args: Array<String>) {
-    print("Enter a String: ")
-    val name = readLine()!!
-    println(name)
+    print("Enter an objects mass: ")
+    var mass = readLine()!!
+    var massInNewtons = 9.8 * Mass
+if (massInNewtons > 1,000) {
+        println("The object is too heavy")
+  if (massInNewtons < 10) {
+    println("The object is too light")
+   
 }
 
-var massInnewtons = 
-if (massInNewtons > 1,000) P
-  var massInNewtons = 9.8 * Mass
-  if (distanceInMeters > 599) {
-    println("That's more than half a kilometer!")
-  }
-}
 
