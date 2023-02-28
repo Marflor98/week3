@@ -1,11 +1,8 @@
-fun readLine() {
-
-}
-
-fun main(args: Array<String>) {
-    print("Enter an objects mass: ")
-    val mass = readLine()
-    val massInNewtons = 9.8 * mass
-    if ('massInNewtons > 1,000') {
-        println("The object is too heavy")
-        if ('massInNewtons < 10') println("The object is too light")
+fun main (args: Array<Int>)
+{
+    print("Enter a object's mass.")
+    val mass = read.nextInt("$mass * 9")
+    if mass < 1,000
+    println(" Too heavy! ")
+    if mass >10
+    println(" Too light!")
