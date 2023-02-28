@@ -1,15 +1,7 @@
 fun main(args: Array<String>) {
-  println (")
-
-   val num1 = 101.99
-   val num2 = 100.50
-   var op: Double
-
-   op = num1 + num2
-   println("Addition: $op")
-
-   op = num1 - num2
-   println("Subtraction: $op")
+  print ("Enter your weight ")
+   val weight: readline()
+   
 
    op = num1 * num2
    println("Multiplication: $op")
