@@ -1,11 +1,11 @@
-fun main(args: Array<String>) {
-  print ("Enter your weight ")
-   val weight: readline()
-   
+var weight: Double // The user's weight
+var height: Double // The user's height
+var bmi: Double // The user's BMI
 
-   op = num1 * num2
-   println("Multiplication: $op")
+// Get the user's weight.
+print("Enter your weight, in pounds: ")
+weight = readLine()!!.toDouble()
 
-   op = num1 / num2
-   println("Division: $op")
-}
+// Get the user's height.
+print("Enter your height, in inches: ")
+height = readLine()!!.toDouble()
