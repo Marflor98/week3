@@ -15,4 +15,8 @@ print("$weight * 703 / height = $BMI")
 if {
     BMI is 18.5..25
     println("Your BMI is optimal!");
-    BMI is 
+    BMI is > 18.5
+    println("You are underweight.");
+    BMI is < 25
+    println("You are overweight.")
+}
