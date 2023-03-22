@@ -1,6 +1,9 @@
+// Get names from user
 fun main () {
  print("Enter 3 names ")
 }
-val names = listOf("one", "two", "three")
+val names = readLine()!! 
+ 
+ listOf("one", "two", "three")
 
-println("Sorted ascending: ${numbers.sorted()}")
+println("Sorted ascending: ${names.sorted()}")
